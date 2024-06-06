@@ -1,0 +1,141 @@
+
+
+
+.Main_Heading {
+  font-family:"arial";
+  color:#000015;
+  font-size:20px;
+}
+
+.Syn_Heading {
+  font-size:25px;
+  font-family:arial;
+}
+
+.Ver_Info_Heading {
+  font-size:20px;
+  font-family:arial;
+  
+}
+
+  
+.Off_Mark {
+  font-family:"arial";
+  color:#111111;
+  font-size:10px;
+  padding-top:2px;
+  padding-left:20px;
+  margin-top:5px;
+  
+}
+
+.Install_Button {
+  background-color:#000015;
+  color:#CCCCCC;
+  border-color:#8080ff;
+  border-radius:8px;
+  width:34%;
+  height:50px;
+  margin-left:35%;
+  margin-top:4%;
+}
+
+.Install_Button:hover {
+  background-color:#000040;
+  color:#8080ff;
+  border-color:#cccccc;
+  border-radius:8px;
+  width:34%;
+  height:50px;
+  margin-left:35%;
+  margin-top:4%;
+}
+
+
+
+.Syn_content {
+  font-size:14px;
+  font-family:calibri;
+  color:#747474;
+  margin-left:4%;
+  margin-right:13%;
+}
+
+
+.Bulletin {
+  font-size:16px;
+  font-family:calibri;
+  color:#706161;
+  margin-left:2%;
+  margin-right:13%;
+}
+
+.Ver_Info_description {
+  font-size:14px;
+  font-family:calibri;
+  color:#747474;
+  margin-left:5%;
+  margin-right:13%;
+  margin-bottom:0px;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
+.Nav_Bar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.NavBar_Element {
+  font-family:arial;
+  color:#dddddd;
+  background-color:#110000;
+  display:inline;
+  padding-top:2%;
+  padding-bottom:2%;
+  margin-left:0px;
+}
+
+.NavBar_Text {
+  display:inline;
+  padding:3%;
+  margin:0px;
+}
+
+#Home {
+  background-color:#ff4d4d;
+}
+#News-Tab {
+  display:none;
+}
+#Submit-Button{
+  margin-top:9%;
+}
+#Dash-Info {
+  margin-left:9%;
+  margin-top:0%;
+  padding-top:1px;
+}
+
+#Floor3-Info {
+  margin-left:9%;
+  margin-top:0%;
+  padding-top:1px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .NavBar_Element {
+  font-family:arial;
+  color:#dddddd;
+  background-color:#110000;
+  display:inline;
+  padding-top:0.7%;
+  padding-bottom:0.7%;
+  margin-left:0.1px;
+  margin-top:0.1px;
+}
+}
